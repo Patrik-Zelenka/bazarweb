@@ -1,0 +1,21 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Můj E-shop</title>
+    <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+    <h1>Vítejte v mém E-shopu</h1>
+    <form id="productForm">
+        <input type="text" id="productName" placeholder="Název produktu" required>
+        <input type="text" id="productDescription" placeholder="Popis produktu" required>
+        <input type="number" id="productPrice" placeholder="Cena produktu" required>
+        <input type="submit" value="Přidat produkt">
+    </form>
+    <ul id="productList"></ul>
+    <script src="shop.js"></script>
+</body>
+</html>
